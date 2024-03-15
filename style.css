@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+a, ul,li {
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: #3D3D3D;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  border: .1rem solid red;
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 76.8rem;
+}
+header {
+  padding: .5rem 0 .5rem 0;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+header a {
+  color: #6BFFED;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-size: 4rem;
+  font-style: normal;
+}
+
+.textForHer {
+  text-align: center;
+  background-color: #666666;
+  width: 100%;
+}
+.textForHer p {
+  font-size: 2rem;
+}
+.content {
+  width: 100%;
+  padding: 0 1rem 0 1rem;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template: 
+  "foto1 foto1"
+  "foto2 foto4"
+  "foto3 foto3"
+  "foto5 foto6"
+  "foto7 foto8"
+  "foto9 foto12"
+  "foto10 foto10"
+  "foto11 foto11"
+  "foto13 foto14"
+  "foto15 foto16"
+  "foto17 foto18"
+  "foto19 foto23"
+  "foto21 foto22"
+  "foto20 foto20"
+  "foto24 foto24"
+  "foto25 foto25"
+  ;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: center;
+}
+
+.card {
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0 .5rem 0;
+  background-color: white;
+}
+.cardRetangular{
+  width: 36rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0 .5rem 0;
+  background-color: white;
+}
+
+.containerImg {
+  width: 15rem;
+  margin-bottom: 1rem;
+}
+.containerImgRetangular {
+  width: 35rem;
+  margin-bottom: 1rem;
+}
