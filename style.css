@@ -44,11 +44,18 @@ header a {
 
 .textForHer {
   text-align: center;
+  font-family: "Poppins", sans-serif;
   background-color: #666666;
   width: 100%;
 }
+.textForHer span {
+  color: #6BFFED;
+  font-size: 1.8rem;
+
+}
 .textForHer p {
-  font-size: 2rem;
+  color: #E0E0E0;
+  font-size: 1.5rem;
 }
 .content {
   width: 100%;
@@ -90,7 +97,7 @@ header a {
   background-color: white;
 }
 .cardRetangular{
-  width: 36rem;
+  width: 30rem;
   height: fit-content;
   display: flex;
   flex-direction: column;
@@ -104,6 +111,6 @@ header a {
   margin-bottom: 1rem;
 }
 .containerImgRetangular {
-  width: 35rem;
+  width: 29rem;
   margin-bottom: 1rem;
 }
