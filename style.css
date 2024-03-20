@@ -18,9 +18,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 .container {
-  border: .1rem solid red;
   margin: 0 auto;
   height: 100vh;
   max-width: 76.8rem;
@@ -33,7 +31,7 @@ header {
   justify-content: center;
   margin-bottom: 2rem;
 }
-header a {
+header h1 {
   color: #6BFFED;
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
@@ -45,72 +43,69 @@ header a {
 .textForHer {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  background-color: #666666;
   width: 100%;
+  padding: 0 .7rem 0 .7rem;
+  margin-bottom: 2rem;
 }
-.textForHer span {
+.textForHer p span {
   color: #6BFFED;
-  font-size: 1.8rem;
-
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 .textForHer p {
   color: #E0E0E0;
-  font-size: 1.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  line-height: 2rem;
 }
 .content {
   width: 100%;
-  padding: 0 1rem 0 1rem;
   margin: 0 auto;
+  padding-bottom: 5rem;
+}
 
+.separator {
+  width: 100%;
+  height: 50rem;
   display: grid;
-  grid-template: 
-  "foto1 foto1"
-  "foto2 foto4"
-  "foto3 foto3"
-  "foto5 foto6"
-  "foto7 foto8"
-  "foto9 foto12"
-  "foto10 foto10"
-  "foto11 foto11"
-  "foto13 foto14"
-  "foto15 foto16"
-  "foto17 foto18"
-  "foto19 foto23"
-  "foto21 foto22"
-  "foto20 foto20"
-  "foto24 foto24"
-  "foto25 foto25"
-  ;
   justify-content: center;
   align-items: center;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  text-align: center;
+  background-color: #404040;
+  margin-bottom: 5rem;
+  align-content: center;
   justify-items: center;
 }
-
-.card {
-  width: 16rem;
+.separator h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 10rem;
+  color: #6BFFED;
+  margin-bottom: 4rem;
+}
+.separator .icon {
+  fill: #6BFFED;
+  height: 5rem;
+  width: 10rem;
+}
+.gallery {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  overflow-x: scroll;
+  margin-bottom: 2rem;
+}
+.gallery div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2rem;
+  padding: 1rem;
   align-items: center;
-  padding: 1rem 0 .5rem 0;
-  background-color: white;
+  flex: none;
 }
-.cardRetangular{
-  width: 30rem;
-  height: fit-content;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem 0 .5rem 0;
-  background-color: white;
+.gallery div img {
+  width: 100%;
 }
-
-.containerImg {
-  width: 15rem;
-  margin-bottom: 1rem;
-}
-.containerImgRetangular {
-  width: 29rem;
-  margin-bottom: 1rem;
+.gallery::-webkit-scrollbar{
+  display: none;
 }
