@@ -76,6 +76,7 @@ header h1 {
   margin-bottom: 5rem;
   align-content: center;
   justify-items: center;
+  padding: 0 .7rem 0 .7rem;
 }
 .separator h2 {
   font-family: "Dancing Script", cursive;
