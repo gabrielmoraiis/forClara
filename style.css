@@ -62,8 +62,7 @@ header h1 {
 .textForHer p+p {
   margin-top: .8rem;
 }
-
-.textForHer a {
+.textForHer .whats {
   display: flex;
     flex-direction: row;
     text-align: center;
@@ -85,6 +84,9 @@ header h1 {
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+.whats p {
+  color: black;
 }
 .content {
   width: 100%;
